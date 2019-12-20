@@ -2,5 +2,9 @@
     "name": "Test Example",
     "version": "1.0",
     "description": "Build an Extension!",
-    "manifest_version": 1
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "manifest_version": 2
 }
